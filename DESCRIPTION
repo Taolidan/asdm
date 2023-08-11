@@ -1,0 +1,19 @@
+Package: asdm
+Title: Approximate Species Distribution Model
+Version: 0.9
+Authors@R: 
+    person("Lidan", "Tao", , "taolidan@mail.kib.ac.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1396-0524"))
+Description: Build approximate species distribution model following method of Tao et al., 2023.
+LazyData: true
+URL: https://github.com/Taolidan/asdm
+BugReports: https://github.com/Taolidan/asdm/issues
+Depends: R (>= 4.2.0), stats, base
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ecospat,
+    raster
+
